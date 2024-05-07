@@ -20,6 +20,6 @@ spring.datasource.password=${DB_PASSWORD}
 ```
 
 Reference-style: 
-![directory structure](https://www.dropbox.com/scl/fi/zvic8fy6x421ibjpyh5pp/spring_app_dir.png?rlkey=39wpyesziir4n5htii000qpsw&st=58slbtvr&rw=0)
+![directory structure](https://www.dropbox.com/scl/fi/zvic8fy6x421ibjpyh5pp/spring_app_dir.png?rlkey=39wpyesziir4n5htii000qpsw&st=58slbtvr&raw=1)
 	
 [source:]( https://medium.com/@Marou_arnault/spring-boot-hide-your-credentials-fb1ca22ae911)
