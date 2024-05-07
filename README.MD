@@ -14,7 +14,7 @@ DB_PASSWORD=SuperStrongPassword
 ### 3-Then use your Environment variable freshly created in your env.properties file with ${ENV_VAR}:
 
 ```java
-spring.datasource.url=jdbc:h2:file:~/${DB_DATABASE}
+spring.datasource.url=${DB_DATABASE}
 spring.datasource.username=${DB_USER}
 spring.datasource.password=${DB_PASSWORD}
 ```
