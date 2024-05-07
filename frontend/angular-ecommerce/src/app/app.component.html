@@ -1,0 +1,60 @@
+<div class="page-wrapper">
+
+  <!-- MENU SIDEBAR-->
+  <aside class="menu-sidebar d-none d-lg-block">
+    <!-- LOGO -->
+    <div class="logo">
+      <a href="#">
+        <img src="assets/images/logo.png" alt="Imagery Logo" class="img-responsive">
+      </a>
+    </div>
+
+    <!-- SIDE BAR OPTIONS -->
+    <app-product-category></app-product-category>
+
+<!--Menu Side Bar-->
+  </aside>
+  <!-- END MENU SIDEBAR-->
+
+  <!-- PAGE CONTAINER-->
+  <div class="page-container">
+    <!-- HEADER DESKTOP-->
+    <header class="header-desktop">
+      <div class="section-content section-content-p30">
+        <div class="container-fluid">
+          <div class="header-wrap">
+            <!-- when ng creates a component, it create a selector in this case is app-search.
+              see file: search.components.ts-->
+            <app-search></app-search>
+            
+            <div class="cart-area d-n">
+              <a href="shopping-detail.html">
+                <div class="total">19.22 <span> 2</span> </div>
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <div class="account-wrap"></div>
+        </div>
+      </div>
+    </header>
+    <!-- END HEADER DESKTOP-->
+
+    <!--Main content-->
+    <!-- Step 3 Routing, adding router outle.-->
+    <!-- Step 4 is above in this file        -->
+      <router-outlet></router-outlet>
+
+    <!--End Main Content -->
+  </div><!-- PAGE CONTAINER-->
+
+</div> <!--class wrapper-->
+
+
+<footer>
+  <ul>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Help</a></li>
+  </ul>
+</footer>
