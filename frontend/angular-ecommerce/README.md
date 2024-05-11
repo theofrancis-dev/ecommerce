@@ -2,13 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
 
-# dependencies installation
+# Angular Dependencies installation
 
-ng add angular/localize
-#√ Found compatible package version: @angular/localize@17.3.7.
-#https://ng-boostrap.github.io/#/getting-started
-ng add @ng-bootstrap/ng-bootstrap
-#√ Found compatible package version: @ng-bootstrap/ng-bootstrap@16.0.0.
+`ng add angular/localize`
+
+`ng add @ng-bootstrap/ng-bootstrap`
+
+source: 
+[ng-boostrap getting started](https://ng-boostrap.github.io/#/getting-started)
 
 ## Development server
 
@@ -55,3 +56,15 @@ here is the snippet of my angular.json file
               "./node_modules/bootstrap/dist/js/bootstrap.min.js"
     ]
 
+  ## Pagination
+  Spring Rest provides out of ht ebox pagination:
+
+  http://localhost:8080/api/products?page=2&size=10
+
+![pagination api](https://www.dropbox.com/scl/fi/8k94ruoy5vukxp8uyzxep/spring_pagination_01.png?rlkey=ayxvq1t3s77wccxtar4dlmflo&st=03cvtg4t&raw=1)
+
+this app use __ng-bootstrap__ for pagination
+
+[Pagination Documentation](https://ng-bootstrap.github.io/#/components/pagination/overview)
+
+[ng-boostrap github](https://github.com/ng-bootstrap/ng-bootstrap),  [ng-bbostrap components](https://ng-bootstrap.github.io/#/components/accordion/overview)

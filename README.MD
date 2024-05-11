@@ -1,3 +1,6 @@
+Project from course
+Full Stack Angular and Java Spring Boot E-Commerce Website. UDEMY. Chad Darby & Harinath Kuntamukkala.
+
 
 ## Spring Rest Initialization
 

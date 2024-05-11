@@ -11,6 +11,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { SearchComponent } from './components/search/search.component';
 import { ProductDetailsComponent } from './components/product-details/product-details.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarStatusComponent } from './components/car-status/car-status.component';
 
 
 /** ============== 1 STEP =============================
@@ -45,13 +46,15 @@ const routes: Routes = [
     ProductListComponent,
     ProductCategoryComponent,
     SearchComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    CarStatusComponent
   ],
 
   imports: [
     RouterModule.forRoot( routes ),
     BrowserModule,    
-    HttpClientModule, NgbModule
+    HttpClientModule,
+    NgbModule         //ng-boostrap module
   ],
 
   providers: [ProductService],
