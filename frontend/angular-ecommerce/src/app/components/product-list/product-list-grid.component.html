@@ -19,7 +19,9 @@
 
             <div class="price">{{tempProduct.unit_price | currency:'USD'}}</div>
 
-            <a href="#" class="primary-btn">Add to cart</a>
+            <!--Button to add product to the cart
+                this method is in product-list.components.ts-->
+            <button (click)="addToCart(tempProduct)" class="btn btn-primary btn-sm">Add to cart</button>
 
           </div>
           <!--Product Box-->

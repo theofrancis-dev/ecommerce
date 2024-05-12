@@ -18,6 +18,7 @@
 
   <!-- PAGE CONTAINER-->
   <div class="page-container">
+
     <!-- HEADER DESKTOP-->
     <header class="header-desktop">
       <div class="section-content section-content-p30">
@@ -25,14 +26,11 @@
           <div class="header-wrap">
             <!-- when ng creates a component, it create a selector in this case is app-search.
               see file: search.components.ts-->
+
             <app-search></app-search>
+
+            <app-cart-status></app-cart-status>
             
-            <div class="cart-area d-n">
-              <a href="shopping-detail.html">
-                <div class="total">19.22 <span> 2</span> </div>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-              </a>
-            </div>
           </div>
           <div class="account-wrap"></div>
         </div>
@@ -43,7 +41,8 @@
     <!--Main content-->
     <!-- Step 3 Routing, adding router outle.-->
     <!-- Step 4 is above in this file        -->
-      <router-outlet></router-outlet>
+
+  <router-outlet></router-outlet>
 
     <!--End Main Content -->
   </div><!-- PAGE CONTAINER-->
